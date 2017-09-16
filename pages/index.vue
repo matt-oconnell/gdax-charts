@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>GDAX - LTC</div>
+    <div>GDAX - {{selected}}</div>
     <select v-model="selected">
       <option>LTC</option>
       <option>BTC</option>
